@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <!-- Origin Labs icon set: 64x64, ink outlines (3.5), palette fills, sparkles. Use: <svg><use href="/assets/icons.svg#i-call"/></svg> -->
+  <defs>
+    <path id="spark" d="M0,-7 Q1.2,-1.2 7,0 Q1.2,1.2 0,7 Q-1.2,1.2 -7,0 Q-1.2,-1.2 0,-7 Z"/>
+  </defs>
+
+  <!-- 01 discovery call: speech bubble with dots -->
+  <symbol id="i-call" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M12 13h32a7 7 0 0 1 7 7v17a7 7 0 0 1-7 7H27l-11 9v-9h-4a7 7 0 0 1-7-7V20a7 7 0 0 1 7-7z" fill="#00C9A7"/>
+      <path d="M14 18h26" stroke="#fff" stroke-opacity=".55" stroke-width="3"/>
+      <circle cx="18" cy="29" r="2.6" fill="#111" stroke="none"/><circle cx="28" cy="29" r="2.6" fill="#111" stroke="none"/><circle cx="38" cy="29" r="2.6" fill="#111" stroke="none"/>
+      <use href="#spark" transform="translate(55 11) scale(.9)" fill="#FFC93C" stroke-width="2.6"/>
+    </g>
+  </symbol>
+
+  <!-- 02 your plan: lightbulb with the star inside -->
+  <symbol id="i-plan" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M32 9a16 16 0 0 1 9.5 28.9c-1.6 1.2-2.5 3-2.5 5V45H25v-2.1c0-2-.9-3.8-2.5-5A16 16 0 0 1 32 9z" fill="#FFC93C"/>
+      <path d="M24 33a12 12 0 0 1-3-12" stroke="#fff" stroke-opacity=".6" stroke-width="3" fill="none"/>
+      <rect x="24" y="45" width="16" height="9" rx="3" fill="#FFF1C1"/>
+      <path d="M28 58h8"/>
+      <path d="M8 22h-3M12 9l-2-2M52 9l2-2M56 22h3" fill="none"/>
+      <use href="#spark" transform="translate(32 25) scale(1.05)" fill="#111" stroke="none"/>
+    </g>
+  </symbol>
+
+  <!-- 03 the deal: contract with signature and pen -->
+  <symbol id="i-deal" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M13 7h26l10 10v38a3 3 0 0 1-3 3H13a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3z" fill="#FFF1C1"/>
+      <path d="M39 7v10h10" fill="#FFC93C"/>
+      <path d="M17 22h16M17 30h22" fill="none"/>
+      <path d="M17 45c3-5 5-5 6-1s3 3 5-1 4-3 5 0" fill="none" stroke-width="3"/>
+      <path d="M44 50l13-13 4 4-13 13-6 2z" fill="#FF9CCB"/>
+      <circle cx="44" cy="20" r="0" />
+      <use href="#spark" transform="translate(56 12) scale(.85)" fill="#00C9A7" stroke-width="2.6"/>
+    </g>
+  </symbol>
+
+  <!-- 04 build: browser window with blocks and a coin -->
+  <symbol id="i-build" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="5" y="10" width="54" height="44" rx="6" fill="#fff"/>
+      <path d="M5 21h54V16a6 6 0 0 0-6-6H11a6 6 0 0 0-6 6z" fill="#B69CFF"/>
+      <circle cx="12" cy="15.5" r="1.6" fill="#111" stroke="none"/><circle cx="18" cy="15.5" r="1.6" fill="#111" stroke="none"/><circle cx="24" cy="15.5" r="1.6" fill="#111" stroke="none"/>
+      <rect x="12" y="28" width="20" height="8" rx="2.5" fill="#00C9A7"/>
+      <path d="M12 43h14M12 48h9" fill="none"/>
+      <ellipse cx="45" cy="38" rx="8" ry="9" fill="#FFC93C"/>
+      <use href="#spark" transform="translate(45 38) scale(.6)" fill="#111" stroke="none"/>
+    </g>
+  </symbol>
+
+  <!-- 05 launch: rocket with flame and motion lines -->
+  <symbol id="i-launch" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M23 41c-5 1-9 6-10 13 7-1 12-5 13-10z" fill="#FFC93C"/>
+      <path d="M22 33l-9-1 7-9 9 1zM31 42l1 9 9-7-1-9z" fill="#FF9CCB"/>
+      <path d="M22 42c4-14 15-27 33-33-6 18-19 29-33 33z" fill="#FFF1C1"/>
+      <circle cx="40" cy="24" r="5.5" fill="#00C9A7"/>
+      <path d="M22 42l-2-2" fill="none"/>
+      <path d="M6 30l5 1M33 58l-1-5M9 44l4-2" fill="none"/>
+      <use href="#spark" transform="translate(56 30) scale(.8)" fill="#00C9A7" stroke-width="2.6"/>
+    </g>
+  </symbol>
+
+  <!-- 06 get paid: stack of tilted coins with up arrow -->
+  <symbol id="i-paid" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M8 46v6c0 4 8 7 18 7s18-3 18-7v-6" fill="#FF9CCB"/>
+      <ellipse cx="26" cy="46" rx="18" ry="7" fill="#FFC93C"/>
+      <path d="M8 36v6c0 4 8 7 18 7s18-3 18-7v-6" fill="#00C9A7"/>
+      <ellipse cx="26" cy="36" rx="18" ry="7" fill="#FFF1C1"/>
+      <use href="#spark" transform="translate(26 36) scale(.75 .5)" fill="#111" stroke="none"/>
+      <path d="M50 30V8M42 15l8-8 8 8" fill="none"/>
+      <use href="#spark" transform="translate(13 16) scale(.9)" fill="#FFC93C" stroke-width="2.6"/>
+      <use href="#spark" transform="translate(30 9) scale(.6)" fill="#00C9A7" stroke-width="2.4"/>
+    </g>
+  </symbol>
+
+  <!-- official coin: tilted coin with the star, motion lines -->
+  <symbol id="i-coin" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <ellipse cx="29" cy="35" rx="17" ry="21" fill="#00C9A7" transform="rotate(-14 29 35)"/>
+      <ellipse cx="34" cy="33" rx="17" ry="21" fill="#FFC93C" transform="rotate(-14 34 33)"/>
+      <path d="M27 18a14 17 -14 0 0 -3 16" stroke="#fff" stroke-opacity=".6" stroke-width="3" fill="none"/>
+      <use href="#spark" transform="translate(35 33) scale(1.15)" fill="#111" stroke="none"/>
+      <path d="M5 24h6M3 33h5M6 42h4" fill="none"/>
+      <use href="#spark" transform="translate(55 11) scale(.85)" fill="#FF9CCB" stroke-width="2.6"/>
+    </g>
+  </symbol>
+
+  <!-- website: browser with a credited artwork -->
+  <symbol id="i-site" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="5" y="9" width="54" height="44" rx="6" fill="#fff"/>
+      <path d="M5 20h54v-5a6 6 0 0 0-6-6H11a6 6 0 0 0-6 6z" fill="#00C9A7"/>
+      <circle cx="12" cy="14.5" r="1.6" fill="#111" stroke="none"/><circle cx="18" cy="14.5" r="1.6" fill="#111" stroke="none"/><circle cx="24" cy="14.5" r="1.6" fill="#111" stroke="none"/>
+      <rect x="12" y="27" width="19" height="19" rx="4" fill="#FFC93C"/>
+      <use href="#spark" transform="translate(21.5 36.5) scale(.6)" fill="#111" stroke="none"/>
+      <path d="M37 29h15M37 36h11M37 43h7" fill="none"/>
+      <use href="#spark" transform="translate(56 56) scale(.75)" fill="#FF9CCB" stroke-width="2.4"/>
+    </g>
+  </symbol>
+
+  <!-- app: phone with a play button and a coin -->
+  <symbol id="i-app" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="18" y="5" width="28" height="53" rx="6" fill="#fff"/>
+      <rect x="22.5" y="12" width="19" height="31" rx="3" fill="#B69CFF"/>
+      <path d="M29 21.5l8 6-8 6z" fill="#FFC93C"/>
+      <path d="M29 51h6" fill="none"/>
+      <ellipse cx="10" cy="44" rx="6" ry="7" fill="#FFC93C"/>
+      <use href="#spark" transform="translate(10 44) scale(.4)" fill="#111" stroke="none"/>
+      <use href="#spark" transform="translate(55 14) scale(.85)" fill="#00C9A7" stroke-width="2.6"/>
+    </g>
+  </symbol>
+
+  <!-- community: three fans and a heart -->
+  <symbol id="i-crowd" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M5 54c1-8 5-12 11-12s10 4 11 12z" fill="#FF9CCB"/><circle cx="16" cy="34" r="6" fill="#FF9CCB"/>
+      <path d="M37 54c1-8 5-12 11-12s10 4 11 12z" fill="#B69CFF"/><circle cx="48" cy="34" r="6" fill="#B69CFF"/>
+      <path d="M19 58c1-10 6-16 13-16s12 6 13 16z" fill="#00C9A7"/><circle cx="32" cy="30" r="7.5" fill="#FFC93C"/>
+      <path d="M32 11c-3.5-3-8.5-1.5-8.5 2.2 0 3.2 4.3 5.6 8.5 8.1 4.2-2.5 8.5-4.9 8.5-8.1 0-3.7-5-5.2-8.5-2.2z" fill="#FF5C8A"/>
+      <path d="M10 16l-3-3M54 16l3-3" fill="none"/>
+    </g>
+  </symbol>
+
+  <!-- branding: palette with paint dots and a sparkle -->
+  <symbol id="i-brush" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M32 8C17 8 6 18 6 31c0 12 10 21 21 21 4 0 6-2 6-5 0-4-3-5-3-8 0-3 2-5 6-5h8c8 0 14-5 14-12C58 15 46 8 32 8z" fill="#FFF1C1"/>
+      <circle cx="18" cy="29" r="4.2" fill="#FF9CCB"/><circle cx="26" cy="18" r="4.2" fill="#00C9A7"/><circle cx="40" cy="17" r="4.2" fill="#FFC93C"/><circle cx="17" cy="41" r="4.2" fill="#B69CFF"/>
+      <use href="#spark" transform="translate(52 50) scale(.95)" fill="#FFC93C" stroke-width="2.6"/>
+    </g>
+  </symbol>
+
+  <!-- wallet with a coin -->
+  <symbol id="i-wallet" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M10 20h38a6 6 0 0 1 6 6v22a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V22z" fill="#2BC46A"/>
+      <path d="M10 20 40 9a4 4 0 0 1 5 3v8" fill="#FFF1C1"/>
+      <path d="M42 32h14v12H42a6 6 0 0 1 0-12z" fill="#FFF1C1"/>
+      <circle cx="44" cy="38" r="2.6" fill="#111" stroke="none"/>
+      <path d="M16 28h14" stroke="#fff" stroke-opacity=".6" stroke-width="3"/>
+      <use href="#spark" transform="translate(54 12) scale(.8)" fill="#FFC93C" stroke-width="2.6"/>
+    </g>
+  </symbol>
+
+  <!-- ✓ approve tick in a mint coin -->
+  <symbol id="i-check" viewBox="0 0 64 64">
+    <g stroke="#111" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <circle cx="32" cy="32" r="24" fill="#00C9A7"/>
+      <path d="M21 33l8 8 15-17" fill="none" stroke-width="5"/>
+    </g>
+  </symbol>
+</svg>
